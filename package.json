@@ -1,0 +1,19 @@
+{
+  "name": "sudoku-puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node ./index.js",
+    "server-dev": "cd server && nodemon ./index.js",
+    "client": "cd client && npm run build",
+    "client-dev": "cd client && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Egor Piskunov",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
