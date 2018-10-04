@@ -2,8 +2,10 @@
 
 ## Rules
 
->The rules of the game are simple: each of the nine blocks has to contain all the numbers 1-9 within its squares. Each number can only appear once in a row, column or box.
+* Each row must contain all numbers from 1 to 9.
+* Each column must contain all numbers from 1 to 9.
+* Each box must contain all numbers from 1 to 9.
 
->The difficulty lies in that each vertical nine-square column, or horizontal nine-square line across, within the larger square, must also contain the numbers 1-9, without repetition or omission.
+![](https://habrastorage.org/storage3/4b1/6ae/079/4b16ae0795c3c835fa725590cbbc2f12.jpg "Sudoku rules")
 
 ---
